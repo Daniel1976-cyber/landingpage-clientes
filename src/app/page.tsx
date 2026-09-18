@@ -166,7 +166,7 @@ export default function Home() {
                   <div>
                     <CardTitle className="text-xl text-green-900">Inventario Automático</CardTitle>
                     <CardDescription className="text-base mt-2">
-                      Los productos se muestran u ocultan automáticamente según tu disponibilidad actual. Sin más "ya no tengo".
+                       Los productos se muestran u ocultan automáticamente según tu disponibilidad actual. Sin más &ldquo;ya no tengo&rdquo;.
                     </CardDescription>
                   </div>
                 </div>
