@@ -446,7 +446,7 @@ export default function Home() {
               </li>
             </ol>
           </div>
-          <a href="tel:+5353072454">
+          <a href="https://wa.me/5353072454" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-white text-green-600 hover:bg-green-50 text-lg px-8">
               <Phone className="h-5 w-5 mr-2" />
               Contactar Ahora
@@ -475,7 +475,7 @@ export default function Home() {
                 <ul className="space-y-2 text-gray-400">
                   <li className="flex items-center gap-2">
                     <Phone className="h-4 w-4" />
-                    <a href="tel:+5353072454" className="hover:text-white transition-colors">WhatsApp: +53 53072454</a>
+                    <a href="https://wa.me/5353072454" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">WhatsApp: +53 53072454</a>
                   </li>
                   <li className="flex items-center gap-2">
                     <Mail className="h-4 w-4" />
