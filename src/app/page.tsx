@@ -50,10 +50,10 @@ export default function Home() {
             Solución para Vendedores
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-            ¿Cansado de grupos de WhatsApp y Facebook?
+            ¿Vendes en grupos de WhatsApp y Facebook? Ahora puedes tener tu propia tienda.
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Deja de cambiar foto por foto y buscar productos en listas interminables. Te presentamos una manera diferente de vender.
+            Sigue vendiendo donde están tus clientes y dales un lugar donde puedan encontrarlo todo.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="text-lg px-8 bg-green-600 hover:bg-green-700">
@@ -377,7 +377,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <a 
-                  href="https://https://mercymarket-zfsl.vercel.app" 
+                  href="https://mercymarket-zfsl.vercel.app" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-purple-600 hover:text-purple-700 font-medium"
@@ -391,9 +391,9 @@ export default function Home() {
               <CardHeader>
                 <div className="flex items-start justify-between">
                   <div>
-                    <CardTitle className="text-xl">Tienda Template</CardTitle>
+                    <CardTitle className="text-xl">Martín Saurí</CardTitle>
                     <CardDescription className="mt-2">
-                      La plantilla base que usamos para crear todas las tiendas personalizadas.
+                      Tienda de productos variados con catálogo completo y gestión de inventario.
                     </CardDescription>
                   </div>
                   <ShoppingBag className="h-8 w-8 text-orange-600" />
@@ -406,7 +406,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-orange-600 hover:text-orange-700 font-medium"
                 >
-                  Ver Plantilla
+                  Ver Tienda
                   <ExternalLink className="h-4 w-4" />
                 </a>
               </CardContent>
@@ -490,7 +490,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/Daniel1976-cyber/tienda-template" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                    <a href="https://martin-sauri.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                       Para Desarrolladores
                     </a>
                   </li>
