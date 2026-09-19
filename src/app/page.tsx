@@ -473,7 +473,7 @@ export default function Home() {
                 <ul className="space-y-2 text-gray-400">
                   <li className="flex items-center gap-2">
                     <Phone className="h-4 w-4" />
-                    WhatsApp: +54 9 11 1234-5678
+                    WhatsApp: +53 53072454
                   </li>
                   <li className="flex items-center gap-2">
                     <Mail className="h-4 w-4" />
