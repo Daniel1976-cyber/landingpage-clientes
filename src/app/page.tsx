@@ -446,11 +446,13 @@ export default function Home() {
               </li>
             </ol>
           </div>
-          <Button size="lg" className="bg-white text-green-600 hover:bg-green-50 text-lg px-8">
-            <Phone className="h-5 w-5 mr-2" />
-            Contactar Ahora
-            <ArrowRight className="h-5 w-5 ml-2" />
-          </Button>
+          <a href="tel:+5353072454">
+            <Button size="lg" className="bg-white text-green-600 hover:bg-green-50 text-lg px-8">
+              <Phone className="h-5 w-5 mr-2" />
+              Contactar Ahora
+              <ArrowRight className="h-5 w-5 ml-2" />
+            </Button>
+          </a>
         </div>
       </section>
 
@@ -473,7 +475,7 @@ export default function Home() {
                 <ul className="space-y-2 text-gray-400">
                   <li className="flex items-center gap-2">
                     <Phone className="h-4 w-4" />
-                    WhatsApp: +53 53072454
+                    <a href="tel:+5353072454" className="hover:text-white transition-colors">WhatsApp: +53 53072454</a>
                   </li>
                   <li className="flex items-center gap-2">
                     <Mail className="h-4 w-4" />
